@@ -6,7 +6,7 @@ for i in range(1, x, 1):
     print()'''
 
 l = int(input("enter number of rows: "))
-
+l += 1 
 
 for f in range(1, l, 1):
     for space in range(l - f):

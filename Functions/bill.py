@@ -3,5 +3,7 @@ def total_calc(bill_amount,tip_perc):
     total = round(total,2)
     print(f"Please pay ${total}")
 
-    x = int(input("Please ennter the amount of the bill:  "))
-    y = int(input("Enter the denominations of coins used (in cents): "))
+x = int(input("Please ennter the amount of the bill:  "))
+y = int(input(" Enter the tip percentage:  "))
+
+total_calc(x, y)

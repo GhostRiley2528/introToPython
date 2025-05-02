@@ -3,3 +3,7 @@ try:
     print("the number entered is: ", num)
 except ValueError as ex:
     print("Exception occurred: ", ex)
+
+# division
+
+

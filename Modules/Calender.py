@@ -1,6 +1,7 @@
 import sys
 from time import sleep
 import calendar
+import time
 
 def slow_type(text, delay=0.1):
     for char in text:
@@ -19,5 +20,5 @@ def monthy():
         monthy()
     else:
         slow_type("Shutting down...", 0.3)
-
+        time.sleep(2)
 monthy()

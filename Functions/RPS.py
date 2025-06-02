@@ -10,7 +10,7 @@ while True:
         print("Invalid choice. Try again.\n")
         continue
 
-    user_action = x[y - 1]
+    user_action = x[y - 2]
     computer_action = random.choice(x)
 
     print(f"\nYou have chosen {user_action} and the computer chose {computer_action}.\n")

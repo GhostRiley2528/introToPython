@@ -7,12 +7,12 @@ class person(object):
         print("ID Number:", self.idnumber)
 
 class employee(person):
-       def display(self, name, idnumber, post , salary):
+       def display(self, name, idnumber, salary , post):
         self.post = post
         self.salary = salary
 
         person.__init__(self,name, idnumber)
 
-emp = employee("Arnav", 9393, "Intern", 100000)
+emp = employee("Arnav", 9393, 100000, "Intern")
 
 emp.display()
